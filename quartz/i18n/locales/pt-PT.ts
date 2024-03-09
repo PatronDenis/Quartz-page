@@ -26,11 +26,11 @@ export default {
       noBacklinksFound: "Sem ligações de retorno",
     },
     themeToggle: {
-      lightMode: "Light mode",
-      darkMode: "Dark mode",
+      lightMode: "Modo claro",
+      darkMode: "Modo escuro",
     },
     explorer: {
-      title: "Explorer",
+      title: "Explorador",
     },
     footer: {
       createdWith: "Criado com",
@@ -73,10 +73,10 @@ export default {
     },
     tagContent: {
       tag: "Etiqueta",
-      tagIndex: "Índice de Etiqueta",
+      tagIndex: "Índice de Etiquetas",
       itemsUnderTag: ({ count }) =>
         count === 1 ? "1 item com esta etiqueta." : `${count} items com esta etiqueta.`,
-      showingFirst: ({ count }) => `A mostrar as primeiras ${count} etiquetass.`,
+      showingFirst: ({ count }) => `A mostrar as primeiras ${count} etiquetas.`,
       totalTags: ({ count }) => `Encontradas ${count} etiquetas totais.`,
     },
   },
