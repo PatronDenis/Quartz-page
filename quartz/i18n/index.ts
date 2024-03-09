@@ -13,6 +13,7 @@ import ru from "./locales/ru-RU"
 import ko from "./locales/ko-KR"
 import zh from "./locales/zh-CN"
 import vi from "./locales/vi-VN"
+import pt from "./locales/pt-PT"
 
 export const TRANSLATIONS = {
   "en-US": en,
@@ -50,9 +51,10 @@ export const TRANSLATIONS = {
   "ko-KR": ko,
   "zh-CN": zh,
   "vi-VN": vi,
+  "pt-PT": pt,
 } as const
 
-export const defaultTranslation = "en-US"
+export const defaultTranslation = "pt-PT"
 export const i18n = (locale: ValidLocale): Translation => TRANSLATIONS[locale ?? defaultTranslation]
 export type ValidLocale = keyof typeof TRANSLATIONS
 export type ValidCallout = keyof CalloutTranslation
