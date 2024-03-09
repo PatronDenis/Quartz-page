@@ -23,7 +23,7 @@ export default {
     },
     backlinks: {
       title: "Ligações de retorno",
-      noBacklinksFound: "Nenhuma ligação de retorno encontrada",
+      noBacklinksFound: "Sem ligações de retorno",
     },
     themeToggle: {
       lightMode: "Light mode",
