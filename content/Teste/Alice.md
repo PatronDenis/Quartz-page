@@ -1,2 +1,2 @@
 Conteúdo do ficheiro da pasta de teste.
-Serve como teste da folha [[index]]
+Tem ligação ao [[Bob]] e à [[Charlie]]
